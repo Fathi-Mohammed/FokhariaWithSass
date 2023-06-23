@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الفخورية</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;800;900;1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Start Search Section -->
+    <section class="search-section" id="search-box">
+      <button class="close-search-btn"><i class="fa-solid fa-x"></i></button>
+      <div class="search-section-content"> 
+          <form id="search-form" action="">
+              <input id="search-input" type="text" placeholder="البحث">
+              <button>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+          </form>
+      </div>
+    </section>
+    <!-- End Search Section -->
+
+
+    <!-- Start Header -->
+
+    <header  id="header">
+      <div class="header" >
+        <div class="container">
+          <div class="header-logo">
+            <figure>
+              <img src="imgs/logo.png" alt="">
+            </figure>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">الرئيسية</a></li>
+              <li><a href="#">الرحلات</a></li>
+              <li><a href="#">الأنشطة والفعاليات</a></li>
+              <li><a href="#">معالم سياحية</a></li>
+              <li><a href="#">متجر التحف</a></li>
+            </ul>
+          </nav>
+          <div class="header-search-lang-toggleMenu-icons">
+            <div class="search-icon" id="header-search-btn">
+              <button>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+          </div>
+          <div class="lang-menu-btn">
+              <button class="lang-icon">
+                  <i class="fa-solid fa-globe"></i>
+              </button>
+              <ul class="dropdown-lang-menu">
+                <li><a href="#">English</a></li>
+                <li><a href="#">العربية</a></li>
+              </ul>
+          </div>
+          <div class="toggle-menu-btn" id="toggleMenuBtn">
+              <button>
+                  <i class="fa-solid fa-bars"></i>
+              </button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start Slider -->
+
+      <section class="slider" id="slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <h1>جولات وتجارب رائعة</h1>
+                <p>ريف واحة الحساء</p>
+              </div>
+              <figure class="aspect-ratio">
+                <img src="imgs/جبل-القارة-jabal-alqara1.jpg" alt="">
+              </figure>
+              <div class="overlay"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <h1>ابحث عن الطبيعة والإنسان ...</h1>
+                <p>جمال بحيرة الأصفر وسط الصحراء</p>
+              </div>
+              <figure class="aspect-ratio">
+                <img src="imgs/بحيرة-الاصفر-الطبيعية-natural-yellow-lake-1.jpg" alt="">
+              </figure>
+              <div class="overlay"></div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>  
+      </section>
+
+      <!-- End Slider -->
+
+
+      <!-- Start Side Menu -->
+      <nav class="side-nav-bar" id="sideMenu">
+        <button class="closeBtn">
+            <i class="fa-solid fa-x"></i>
+        </button>
+        <img src="imgs/logo.png" alt="">
+        <ul>
+            <li><a class="nav-link" href="#">الرئيسية</a></li>
+            <li><a class="nav-link" href="#">الرحلات</a></li>
+            <li><a class="nav-link" href="#">الأنشطة والفعاليات</a></li>
+            <li><a class="nav-link" href="#">معالم سياحية</a></li>
+            <li><a class="nav-link" href="#">متجر التحف</a></li>
+        </ul>
+    </nav>
+
+      <!-- End Side Menu -->
+
+    </header>
+
+    <!-- End Header -->
+
+
+    <!-- Start About -->
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <p>الفوخرية لتنظيم الرحلات السياحية خيارك الأمثل لجولات وتجارب واحة الاحساء السياحية</p>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Trips -->
+    <section class="trip-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>الرحلات السياحية</h2>
+          <a href="#">
+            جميع الرحلات
+            <i class="fa fa-arrow-left"></i>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="trip-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/trip-1.jpg" alt="">
+                </figure>
+                <p class="trip-card-trip-num">
+                  <span class="text">رقم الرحلة</span>
+                  <span class="num">FT1111</span>
+                </p>
+              </a>
+              <div class="trip-card-description">
+                <a href="#">جولة يوم كامل في الأحساء</a>
+                <p class="trip-card-paragraph">
+                  برنامج الرحلة:
+                  10:00ص التجمع في الموقع (حسب الموقع المُرسل ...
+                </p>
+                <div class="trip-card-price">
+                  <span class="price">
+                    400
+                    <span class="currency">ريال</span>
+                  </span>
+                </div>
+                <a class="trip-card-book-now-link" href="#">احجز الان</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="trip-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/trip-2.jpg" alt="">
+                </figure>
+                <p class="trip-card-trip-num">
+                  <span class="text">رقم الرحلة</span>
+                  <span class="num">FT1121</span>
+                </p>
+              </a>
+              <div class="trip-card-description">
+                <a href="#">رحلة يومين في الأحساء</a>
+                <p class="trip-card-paragraph">
+                  الاحساء موطن الحضارات المتعاقبة - واحة النخيل و ثراء مصادر ال ...        
+                </p>
+                <div class="trip-card-price">
+                  <span class="old-price">
+                    1250
+                    <span class="currency">ريال</span>
+                  </span>
+                  <span class="price">
+                    1250
+                    <span class="currency">ريال</span>
+                  </span>
+                </div>
+                <a class="trip-card-book-now-link" href="#">احجز الان</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="trip-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/trip-3.jpg" alt="">
+                </figure>
+                <p class="trip-card-trip-num">
+                  <span class="text">رقم الرحلة</span>
+                  <span class="num">FT1131</span>
+                </p>
+              </a>
+              <div class="trip-card-description">
+                <a href="#">رحلة ثلاثة ايام لواحة الأحساء</a>
+                <p class="trip-card-paragraph">
+                  واحة الأحساء بين قفار صحراء الربع الخالي كجنة ساحرة م ...        
+                </p>
+                <div class="trip-card-price">
+                  <span class="old-price">
+                    1950
+                    <span class="currency">ريال</span>
+                  </span>
+                  <span class="price">
+                    1700
+                    <span class="currency">ريال</span>
+                  </span>
+                </div>
+                <a class="trip-card-book-now-link" href="#">احجز الان</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="trip-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/trip-4.jpg" alt="">
+                </figure>
+                <p class="trip-card-trip-num">
+                  <span class="text">رقم الرحلة</span>
+                  <span class="num">FT3221</span>
+                </p>
+              </a>
+              <div class="trip-card-description">
+                <a href="#">رحلة الهدوء</a>
+                <p class="trip-card-paragraph">
+                  رحلة من الرياض مع مبيت في نزل ريفي.
+                  برنامج الرحل ...        
+                </p>
+                <div class="trip-card-price">
+                  <span class="price">
+                    <span class="currency"> </span>
+                  </span>
+                </div>
+                <a class="trip-card-book-now-link" href="#">احجز الان</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="trip-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/trip-5.jpg" alt="">
+                </figure>
+                <p class="trip-card-trip-num">
+                  <span class="text">رقم الرحلة</span>
+                  <span class="num">FT3421</span>
+                </p>
+              </a>
+              <div class="trip-card-description">
+                <a href="#">رحلة الخيال والجمال</a>
+                <p class="trip-card-paragraph">
+                  رحلة الخيال والجمال 
+                  من الرياض مع مبيت ليلة  ...        
+                </p>
+                <div class="trip-card-price">
+                  <span class="price">
+                    2350
+                    <span class="currency">ريال</span>
+                  </span>
+                </div>
+                <a class="trip-card-book-now-link" href="#">احجز الان</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="trip-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/trip-6.jpg" alt="">
+                </figure>
+                <p class="trip-card-trip-num">
+                  <span class="text">رقم الرحلة</span>
+                  <span class="num">FT2151</span>
+                </p>
+              </a>
+              <div class="trip-card-description">
+                <a href="#">المنطقة الشرقية: بين الحاض ...</a>
+                <p class="trip-card-paragraph">
+                  اقضي خمسة أيام رائعة في الميناء البري النابض بالحياة والمركز  ...                        </p>
+                <div class="trip-card-price">
+                  <span class="old-price">
+                    1950
+                    <span class="currency">ريال</span>
+                  </span>
+                  <span class="price">
+                    1700
+                    <span class="currency">ريال</span>
+                  </span>
+                </div>
+                <a class="trip-card-book-now-link" href="#">احجز الان</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Trips -->
+    
+    <!-- Start Landmarks -->
+    <section class="landmarks-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>المعالم السياحية</h2>
+          <a href="#">
+            جميع المعالم
+            <i class="fa fa-arrow-left"></i>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="landmarks-card">
+              <a href="#">
+                <div class="landmarks-wraper">
+                  <figure class="aspect-ratio">
+                    <img src="imgs/tour-1.jpg" alt="">
+                    <div class="overlay"></div>
+                  </figure>
+                  <div class="landmarks-card-info">
+                    <p class="landmarks-cat">معالم أثرية</p>
+                    <h3 class="landmarks-card-head">جبل القارة</h3>
+                    <p class="landmarks-card-parg">
+                      تفاصيل استثنائية صنعتها الطبيعة
+                      التجول بداخل الجبل بين الكهو ...            
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="landmarks-card">
+              <a href="#">
+                <div class="landmarks-wraper">
+                  <figure class="aspect-ratio">
+                    <img src="imgs/tour-2.jpg" alt="">
+                    <div class="overlay"></div>
+                  </figure>
+                  <div class="landmarks-card-info">
+                    <h3 class="landmarks-card-head">مرفأ العقير و الشاطئ</h3>
+                    <p class="landmarks-card-parg">
+                      مكان ساحر لتجربة مجموعة متنوعة من الأنشطة البحرية كصيد الأسما ...                   
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="landmarks-card">
+              <a href="#">
+                <div class="landmarks-wraper">
+                  <figure class="aspect-ratio">
+                    <img src="imgs/tour-3.jpg" alt="">
+                    <div class="overlay"></div>
+                  </figure>
+                  <div class="landmarks-card-info">
+                    <p class="landmarks-cat">قصر إبراهيم</p>
+                    <h3 class="landmarks-card-head">جبل القارة</h3>
+                    <p class="landmarks-card-parg">
+                      تقصر ابراهيم وآثاره الخالدة استكشفها الان 
+                      وتعرف على تفاصيله  ...            
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="landmarks-card">
+              <a href="#">
+                <div class="landmarks-wraper">
+                  <figure class="aspect-ratio">
+                    <img src="imgs/tour-4.jpg" alt="">
+                    <div class="overlay"></div>
+                  </figure>
+                  <div class="landmarks-card-info">
+                    <p class="landmarks-cat">معالم تاريخية</p>
+                    <h3 class="landmarks-card-head">المدرسة الأميرية</h3>
+                    <p class="landmarks-card-parg">
+                      موقع تراثي وصرح تعليمي تاريخي
+                      تعد أول مدرسة حكومية أنشئت في ...
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Landmarks -->
+
+    <!-- Start Activities -->
+    <section class="activities-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>الأتشطة والفعاليات</h2>
+          <a href="#">
+            جميع الفعاليات
+            <i class="fa fa-arrow-left"></i>
+          </a>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="activities-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/activities-1.jpg" alt="">
+                </figure>
+              </a>
+              <div class="activities-card-description">
+                <h3 class="activities-card-head">
+                  <a class="head-link" href="#" >أكتشف الغوص</a>
+                </h3>
+                <p class="activities-card-parg">
+                  متحمس لاستكشاف تجربة مختلفة في عالم الاستكشافات؟ أطلق العنا ...                </p>
+                <a class="read-more-link" href="#">قراءة المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="activities-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/activities -2.jpeg" alt="">
+                </figure>
+              </a>
+              <div class="activities-card-description">
+                <h3 class="activities-card-head">
+                  <a class="head-link" href="#" >سفاري الى بحيرة الأصفر</a>
+                </h3>
+                <p class="activities-card-parg">
+                  مغامرة سفاري بحيرة الأصفر من التجارب الشيقة ومايصير تفوتك......
+                </p>
+                <a class="read-more-link" href="#">قراءة المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="activities-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/activities-3.jpg" alt="">
+                </figure>
+              </a>
+              <div class="activities-card-description">
+                <h3 class="activities-card-head">
+                  <a class="head-link" href="#" >جرب الطيران الرياضي</a>
+                </h3>
+                <p class="activities-card-parg">
+                  ليش تمشي على الارض وأنت تقدر تطير! ايش تنتظر؟ أستكشف مناظ ...                </p>
+                <a class="read-more-link" href="#">قراءة المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="activities-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/activities-4.jpg" alt="">
+                </figure>
+              </a>
+              <div class="activities-card-description">
+                <h3 class="activities-card-head">
+                  <a class="head-link" href="#" >زيارة جبل القارة</a>
+                </h3>
+                <p class="activities-card-parg">
+                  واحة الأحساء: موطن الحضارات المتعاقبة - واحة النخيل و ثراء مص ...                </p>
+                <a class="read-more-link" href="#">قراءة المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="activities-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/activities-5.jpg" alt="">
+                </figure>
+              </a>
+              <div class="activities-card-description">
+                <h3 class="activities-card-head">
+                  <a class="head-link" href="#" >زيارة سوق القيصرية</a>
+                </h3>
+                <p class="activities-card-parg">
+                  واحة الأحساء: موطن الحضارات المتعاقبة - واحة النخيل و ثراء مص ...                </p>
+                <a class="read-more-link" href="#">قراءة المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="activities-card">
+              <a href="#">
+                <figure class="aspect-ratio">
+                  <img src="imgs/activities-6.jpg" alt="">
+                </figure>
+              </a>
+              <div class="activities-card-description">
+                <h3 class="activities-card-head">
+                  <a class="head-link" href="#" >واجهة الريف الحساوي</a>
+                </h3>
+                <p class="activities-card-parg">
+                  لأنك تستحق وقت كافي من الاسترخاء والمتعة بعيدً عن المسؤوليات. ...                </p>
+                <a class="read-more-link" href="#">قراءة المزيد</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Activities -->
+
+
+    <!-- Start location -->
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14419.448134326414!2d49.590116!3d25.37594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e3796e30ed2df5b%3A0x2340faa9012370cd!2sAl%20Hofuf%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1685640636612!5m2!1sen!2sus" 
+              width="100%" height="450" style="border:0; display: flex;" allowfullscreen="" loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- End location -->
+
+    <!-- Start Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-box">
+                <h2 class="footer-head">من نحن</h2>
+                <p class="footer-parg">
+                  الفوخرية مكتب لتنظيم الرحلات الداخلية في المملكة مرخص من قبل وزارة السياحة السعودية منذ 2012 م.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-box">
+                <h2 class="footer-head">روابط سريعة</h2>
+                <div class="footer-menu-content">
+                  <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#">من نحن</a></li>
+                    <li class="footer-menu-item"><a href="#">معرض الصور</a></li>
+                    <li class="footer-menu-item"><a href="#">الرحلات</a></li>
+                    <li class="footer-menu-item"><a href="#">التوظيف</a></li>
+                    <li class="footer-menu-item"><a href="#">المعالم</a></li>
+                    <li class="footer-menu-item"><a href="#">الأسئلة الشائعة</a></li>
+                    <li class="footer-menu-item"><a href="#">الأتشطة والفعاليات</a></li>
+                    <li class="footer-menu-item"><a href="#">اتصل بنا</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-box">
+                <h2 class="footer-head">معلومات التواصل</h2>
+                <div class="footer-info-block">
+                  <div class="footer-contact">
+                    <div class="contact-block">
+                      <span class="name"> الجوال :  </span>
+                      <a class="info" href="tel:00966533940000">00966533940000</a>
+                    </div>
+                    <div class="contact-block">
+                      <span class="name"> البريد الالكترونى :  </span>
+                      <a class="info" href="mailto:tours@fokharia.sa">tours@fokharia.sa</a>
+                    </div>
+                    <div class="contact-block">
+                      <span class="name"> العنوان :  </span>
+                      <span class="info">الهفوف - الفيصلية - الأحساء</span>
+                    </div>
+                  </div>
+                  <div class="footer-social">
+                    <a class="social-icon" href="#">
+                      <figure>
+                        <i class="fab fa-linkedin-in"></i>
+                      </figure>
+                    </a>
+                    <a class="social-icon" href="#">
+                      <figure>
+                        <i class="fab fa-snapchat-ghost"></i>
+                      </figure>
+                    </a>
+                    <a class="social-icon" href="#">
+                      <figure>
+                        <i class="fab fa-instagram"></i>
+                      </figure>
+                    </a>
+                    <a class="social-icon" href="#">
+                      <figure>
+                        <i class="fab fa-twitter"></i>
+                      </figure>
+                    </a>
+                    <a class="social-icon" href="#">
+                      <figure>
+                        <i class="fab fa-facebook-f"></i>
+                      </figure>
+                    </a>
+                    <a class="social-icon" href="#">
+                      <figure>
+                        <i class="fab fa-whatsapp"></i>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-box">
+                <h2 class="footer-head">النشرة البريدية</h2>
+                <p class="footer-newsletter-parg">
+                  اشترك ليصلك جديد رحلاتنا وأخبارنا
+                </p>
+                <div class="newsletter-block">
+                  <form action="" class="news-letter-form">
+                    <input class="newsletter-input" type="email" placeholder="أدخل عنوان بريدك الالكتروني" >
+                    <button class="send-btn">
+                      <i class="fas fa-arrow-circle-left"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright-content">
+            <p class="copyright-parg">© الفوخرية , جميع الحقوق محفوظة 2023</p>
+            <p class="copyright-parg">
+              صنع بكل ال  <i class="love-icon fas fa-heart"></i> فى                     <a href="https://tasawk.com.sa/" class="tasawk-logo" target="blank">
+                  <a href="#">
+                    <img src="imgs/footer.png" alt="tasawk">
+                  </a>
+              </a>
+          </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- End Footer -->
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

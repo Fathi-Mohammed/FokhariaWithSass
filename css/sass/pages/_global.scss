@@ -1,0 +1,52 @@
+
+body {
+    background-color: #fff;
+    font: {
+        family: 'Cairo', sans-serif;
+        size: 18px;
+        weight: normal;
+        style: normal;
+    }
+    line-height: 1.6;
+    color: $greyColor;
+    position: relative;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+}
+
+.aspect-ratio {
+    padding-bottom: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: #4c4c4c;
+    background-image: url(../imgs/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.aspect-ratio img {
+    position: absolute;
+    top: 0;
+    inset-inline-start: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $mainColor;
+}
+

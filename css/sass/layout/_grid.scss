@@ -1,0 +1,9 @@
+* {
+    @include prefixer(box-sizing,border-box,webkit moz);
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
